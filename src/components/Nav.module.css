@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    width: 80%;
+    height: 50px;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.pageName {
+    position: relative;
+    top: 20%;
+    font-size: 20px;
+    text-shadow: 5px 5px #c7cdd4;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+.pageName a {
+    text-decoration: none;
+    color: black;
+}

@@ -13,6 +13,7 @@ function Detail() {
         ).json();
         
         setMovieInfo(json.data.movie);
+        console.log(json.data.movie);
         
     };
 

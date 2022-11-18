@@ -20,7 +20,7 @@ function Home() {
     }
 
     useEffect(() =>{
-    getMovies();
+      getMovies();
     }, [])
     
     return (
